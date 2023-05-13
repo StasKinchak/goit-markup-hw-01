@@ -211,7 +211,7 @@ body {
 }
 
 .navigation-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -224,15 +224,16 @@ body {
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .navigation-btn:hover {
-  background-color: blue;
+  background-color: #404bbf;
   color: #ffffff;
 }
 
 .navigation-btn:focus {
-  background-color: blue;
+  background-color: #404bbf;
   color: #ffffff;
 }
 
