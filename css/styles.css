@@ -7,6 +7,7 @@ body {
 /* Header */
 :root {
   background-color: #ffffff;
+  font-style: normal;
 }
 
 .list {
@@ -89,6 +90,7 @@ body {
 }
 .hero-button {
   font-family: inherit;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -109,6 +111,7 @@ body {
 }
 
 .list-name {
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -117,6 +120,7 @@ body {
 }
 
 .list-text {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -129,6 +133,7 @@ body {
 }
 
 .mission-item {
+  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -147,6 +152,7 @@ body {
 }
 
 .team-item {
+  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -157,6 +163,7 @@ body {
 }
 
 .team-names {
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -165,6 +172,7 @@ body {
 }
 
 .team-function {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
