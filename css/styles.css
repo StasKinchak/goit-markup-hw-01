@@ -364,6 +364,7 @@ img {
 
 .navigation {
   background-color: #ffffff;
+  padding: 96px 0 120px;
 }
 
 .navigation-container {
@@ -376,6 +377,7 @@ img {
   margin-bottom: 72px;
   padding-left: 427px;
   gap: 24px;
+  justify-content: center;
 }
 
 .navigation-btn {
@@ -393,16 +395,19 @@ img {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   cursor: pointer;
+  padding: 12px 24px;
 }
 
 .navigation-btn:hover {
   background-color: #404bbf;
   color: #ffffff;
+  border: 1px solid transparent;
 }
 
 .navigation-btn:focus {
   background-color: #404bbf;
   color: #ffffff;
+  border: 1px solid transparent;
 }
 
 .picture-list {
@@ -432,4 +437,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 8px;
+}
+
+.picture-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
