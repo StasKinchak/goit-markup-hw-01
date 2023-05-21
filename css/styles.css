@@ -4,6 +4,35 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+
 /* Header */
 :root {
   background-color: #ffffff;
@@ -18,6 +47,16 @@ body {
   text-decoration: none;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -29,7 +68,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-left: 156px;
+  margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo-studio {
@@ -41,6 +82,15 @@ body {
   color: #404bbf;
 }
 
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-item {
+}
+
 .header-link {
   font-style: normal;
   font-weight: 500;
@@ -48,7 +98,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: flex;
+  align-items: center;
 }
+
 .header-link:hover {
   color: #404bbf;
 }
@@ -59,6 +112,15 @@ body {
 
 .header-address {
   font-style: normal;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header-address-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .header-contacts {
@@ -68,6 +130,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  display: flex;
 }
 
 .header-contacts:hover,
@@ -80,6 +143,9 @@ body {
   background-color: #2e2f42;
 }
 
+.hero-container {
+}
+
 .hero-name {
   font-style: normal;
   font-weight: 700;
@@ -88,22 +154,30 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  padding-top: 188px;
+  max-width: 580px;
+  margin-bottom: 48px;
+  display: flex;
+  align-items: center;
 }
 
 .hero-button {
   background-color: #4d5ae5;
+  display: flex;
+  align-items: center;
 }
+
 .hero-button {
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 .hero-button:hover,
@@ -113,6 +187,18 @@ body {
 
 .plan {
   background-color: #ffffff;
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+.plan-container {
+  display: flex;
+  align-items: center;
+}
+
+.plan-list {
+  display: flex;
+  align-items: center;
 }
 
 .list-name {
@@ -122,6 +208,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
+  gap: 24px;
 }
 
 .list-text {
@@ -131,10 +219,18 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  gap: 24px;
 }
 
 .mission {
   background-color: #ffffff;
+  padding-bottom: 120px;
+}
+
+.mission-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .mission-item {
@@ -146,10 +242,18 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .team {
   background-color: #f4f4fd;
+}
+
+.team-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 120px;
 }
 
 .team-list-item {
@@ -165,6 +269,12 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+  padding-top: 120px;
+}
+
+.team-photos {
+  margin-bottom: 32px;
 }
 
 .team-names {
@@ -174,6 +284,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-function {
@@ -202,6 +313,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-bottom: 17.5px;
+  padding-top: 100px;
 }
 
 .footer-link-studio {
@@ -215,12 +328,26 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  padding-bottom: 100px;
+  max-width: 280px;
 }
 
 /* Potfolio */
 
 .navigation {
   background-color: #ffffff;
+}
+
+.navigation-container {
+}
+
+.navigation-list {
+  display: flex;
+  align-items: center;
+  padding-top: 96px;
+  margin-bottom: 72px;
+  padding-left: 427px;
+  gap: 24px;
 }
 
 .navigation-btn {
@@ -250,6 +377,16 @@ body {
   color: #ffffff;
 }
 
+.picture-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+
+.picture {
+  margin-bottom: 32px;
+}
+
 .picture-describe {
   font-style: normal;
   font-weight: 500;
@@ -257,6 +394,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .picture-purpose {
