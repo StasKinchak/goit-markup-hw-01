@@ -211,7 +211,7 @@ img {
   gap: 24px;
 }
 
-.plan-list-one {
+.first-element {
   width: calc((100% - 72px) / 4);
 }
 
@@ -261,6 +261,7 @@ img {
 
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-list {
@@ -268,6 +269,10 @@ img {
   align-items: center;
   gap: 24px;
   padding-bottom: 120px;
+}
+
+.team-list-first {
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-item {
