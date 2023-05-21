@@ -145,6 +145,7 @@ img {
 /* Main */
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-container {
@@ -207,6 +208,11 @@ img {
 .plan-list {
   display: flex;
   align-items: center;
+  gap: 24px;
+}
+
+.plan-list-one {
+  width: calc((100% - 72px) / 4);
 }
 
 .list-name {
