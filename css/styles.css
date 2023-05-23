@@ -33,6 +33,11 @@ img {
   outline: 2px solid red;
 }
 
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
 /* Header */
 :root {
   background-color: #ffffff;
