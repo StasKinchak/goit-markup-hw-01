@@ -386,9 +386,7 @@ img {
 .navigation-list {
   display: flex;
   align-items: center;
-  padding-top: 96px;
   margin-bottom: 72px;
-  padding-left: 427px;
   gap: 24px;
   justify-content: center;
 }
