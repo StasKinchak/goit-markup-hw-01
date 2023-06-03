@@ -104,7 +104,7 @@ img {
   gap: 40px;
 }
 
-.header-list::after {
+.header-navigation::after {
   content: "";
   position: absolute;
   left: 0;
