@@ -670,8 +670,15 @@ img {
 }
 
 .picture-item {
-  position: relative;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.picture-item:hover .picture-text {
+  transform: translateY(0);
+}
+
+.picture-item:focus .picture-text {
+  transform: translateY(0);
 }
 
 .picture-text {
@@ -690,6 +697,8 @@ img {
 }
 
 .picture-container-text {
+  overflow: hidden;
+  position: relative;
 }
 
 .picture-link {
