@@ -104,7 +104,7 @@ img {
   gap: 40px;
 }
 
-.header-navigation::after {
+.header-link::after {
   content: "";
   position: absolute;
   left: 0;
@@ -756,11 +756,6 @@ img {
 
 .modal-close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-close-icon:hover,
-.modal-close-icon:focus {
-  fill: #ffffff;
 }
 
 .is-hidden {
