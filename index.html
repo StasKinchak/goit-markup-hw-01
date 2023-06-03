@@ -65,7 +65,7 @@
       <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-name">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button" data-modal-open>
+          <button type="button" class="hero-button" data-modal-open>
             Order Service
           </button>
         </div>
@@ -539,9 +539,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close" data-modal-close></button>
+      </div>
+    </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
