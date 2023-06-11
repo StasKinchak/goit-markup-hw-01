@@ -539,8 +539,8 @@
         </div>
         <div class="footer-input">
           <p class="footer-subscribe">Subscribe</p>
-          <form action="" class="footer-form">
-            <label for="" class="footer-label">
+          <form action="user-subscribe" class="footer-form">
+            <label for="user-subscribe" class="footer-label">
               <input
                 type="email"
                 name="user-subscribe"
@@ -626,26 +626,33 @@
           <div class="modal-field">
             <label for="user-comment" class="input-label">
               <span>Comment</span>
-              <textarea
-                name="user-text"
-                id="user-text"
-                class="modal-comment"
-                placeholder="Text input"
-              ></textarea>
             </label>
+
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="modal-comment"
+              placeholder="Text input"
+            ></textarea>
           </div>
-          <label>
+          <div class="modal-checkbox">
             <input
               type="checkbox"
-              id="agreement"
-              name="agreement"
-              value="privacy"
-              class="modal-agreement"
+              id="user-privacy"
+              name="user-privacy"
+              value="true"
+              class="modal-privacy visually-hidden"
               checked
             />
-            I accept the terms and conditions of the
-            <span class="checkboks-privacy">Privacy Policy</span>
-          </label>
+            <label class="label-privacy"
+              >I accept the terms and conditions of the
+              <span class="checkboks-privacy"
+                ><svg class="modal-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use></svg
+              ></span>
+              <a href="" class="privacy-link">Privacy Policy</a>
+            </label>
+          </div>
           <button type="submit" class="modal-button">Send</button>
         </form>
       </div>
