@@ -865,9 +865,12 @@ img {
 .modal-title {
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 16px;
   margin-top: 24px;
+  color: #2e2f42;
 }
 
 .modal-input {
@@ -876,7 +879,11 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding-left: 30px;
+  background-color: transparent;
+  padding-left: 38px;
   outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-color: #4d5ae5;
 }
 
 .modal-input:focus {
@@ -900,6 +907,10 @@ img {
 .input-label {
   font-size: 12px;
   color: #8e8f99;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  display: block;
+  margin-bottom: 4px;
 }
 
 .input-label span {
@@ -918,9 +929,10 @@ img {
 
 .modal-icon {
   position: absolute;
-  left: 8px;
+  left: 16px;
   top: 50%;
   transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: 7px;
 }
 
