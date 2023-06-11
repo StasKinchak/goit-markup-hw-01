@@ -986,7 +986,7 @@ img {
   color: #4d5ae5;
 }
 
-.modal-privacy:checked + .checkboks-privacy {
+.modal-privacy:checked + .user-comment .checkboks-privacy {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
