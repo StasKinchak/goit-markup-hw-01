@@ -24,6 +24,7 @@
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
     <header class="header">
@@ -58,6 +59,104 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="mob-menu-open" data-menu-open>
+          <svg class="mob-menu-open-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-open"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mob-menu is-hidden" data-menu>
+        <div>
+          <button type="button" class="mob-menu-close" data-menu-close>
+            <svg class="mob-menu-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="mob-menu-list list">
+            <li class="mob-menu-item">
+              <a class="mob-menu-link studio link" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <address class="mob-menu-address">
+            <ul class="mob-menu-address-list list">
+              <li class="mob-menu-address-item mob-menu-phone">
+                <a class="mob-menu-contacts link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mob-menu-address-item mob-menu-email">
+                <a
+                  class="mob-menu-contacts link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mob-menu-soc-list list">
+              <li class="mob-menu-soc-item">
+                <a
+                  href=""
+                  class="mob-menu-soc-link link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="mob-menu-soc-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-menu-soc-item">
+                <a
+                  href=""
+                  class="mob-menu-soc-link link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="mob-menu-soc-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-menu-soc-item">
+                <a
+                  href=""
+                  class="mob-menu-soc-link link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="mob-menu-soc-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-menu-soc-item">
+                <a
+                  href=""
+                  class="mob-menu-soc-link link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="mob-menu-soc-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
 
@@ -133,6 +232,10 @@
           <ul class="mission-list list">
             <li class="list-item">
               <img
+                srcset="
+                  ./images/ourproducts/img1.jpg    1x,
+                  ./images/ourproducts/img1-2x.jpg 2x
+                "
                 class="mission-photos"
                 src="./images/ourproducts/img1.jpg"
                 alt="computer"
@@ -142,6 +245,10 @@
             </li>
             <li class="list-item">
               <img
+                srcset="
+                  ./images/ourproducts/img2.jpg    1x,
+                  ./images/ourproducts/img2-2x.jpg 2x
+                "
                 class="mission-photos"
                 src="./images/ourproducts/img2.jpg"
                 alt="threephones"
@@ -151,6 +258,10 @@
             </li>
             <li class="list-item">
               <img
+                srcset="
+                  ./images/ourproducts/img3.jpg    1x,
+                  ./images/ourproducts/img3-2x.jpg 2x
+                "
                 class="mission-photos"
                 src="./images/ourproducts/img3.jpg"
                 alt="onephone"
@@ -167,6 +278,10 @@
           <ul class="team-list list">
             <li class="team-list-item first">
               <img
+                srcset="
+                  ./images/employees/mark-guerrero.jpg    1x,
+                  ./images/employees/mark-guerrero-2x.jpg 2x
+                "
                 class="team-photos"
                 src="./images/employees/mark-guerrero.jpg"
                 alt="mark-guerrero"
@@ -231,6 +346,10 @@
 
             <li class="team-list-item first">
               <img
+                srcset="
+                  ./images/employees/tom-ford.jpg    1x,
+                  ./images/employees/tom-ford-2x.jpg 2x
+                "
                 class="team-photos"
                 src="./images/employees/tom-ford.jpg"
                 alt="tom-ford"
@@ -295,6 +414,10 @@
 
             <li class="team-list-item first">
               <img
+                srcset="
+                  ./images/employees/camila-garcia.jpg    1x,
+                  ./images/employees/camila-garcia-2x.jpg 2x
+                "
                 class="team-photos"
                 src="./images/employees/camila-garcia.jpg"
                 alt="camila-garcia"
@@ -359,6 +482,10 @@
 
             <li class="team-list-item first">
               <img
+                srcset="
+                  ./images/employees/daniel-wilson.jpg    1x,
+                  ./images/employees/daniel-wilson-2x.jpg 2x
+                "
                 class="team-photos"
                 src="./images/employees/daniel-wilson.jpg"
                 alt="daniel-wilson"
@@ -424,7 +551,7 @@
         </div>
       </section>
       <section class="customers">
-        <div class="container">
+        <div class="container customers-container">
           <h2 class="customers-item">Customers</h2>
           <ul class="customers-list list">
             <li class="customers-list-item">
@@ -660,5 +787,6 @@
       AOS.init();
     </script>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
