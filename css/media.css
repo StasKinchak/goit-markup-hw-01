@@ -193,6 +193,12 @@
     width: calc((100% - 24px) / 2);
   }
 
+  .customers {
+  }
+
+  .customers-container {
+  }
+
   .customers-list-item {
     width: calc((100% - 48px) / 3);
   }
