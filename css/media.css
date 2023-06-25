@@ -598,6 +598,9 @@
   .footer-input {
     margin-right: auto;
   }
+  .modal {
+    padding: 72px 24px 24px 24px;
+  }
 }
 
 /* .footer {
