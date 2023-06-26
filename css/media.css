@@ -1,6 +1,19 @@
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 428px) and (max-width: 767px) {
   .container {
     max-width: 396px;
+  }
+
+  .hero {
+    padding: 112px 54px;
+    height: 432px;
+  }
+
+  .plan-list-item:not(:last-child) {
+    margin-bottom: 72px;
+  }
+
+  .team-list-item:not(:last-child) {
+    margin-bottom: 72px;
   }
 
   .customers-container {
@@ -25,22 +38,39 @@
     margin-right: auto;
   }
 
+  .footer-subscribe {
+    margin-top: 72px;
+  }
+
   .footer-email {
     width: 398px;
   }
 
   .list-name {
-    max-width: 396px;
+    width: 396px;
   }
 
   .list-text {
-    max-width: 396px;
+    width: 396px;
+  }
+
+  .footer-container {
+    padding-top: 97.5px;
+    padding-bottom: 96px;
+  }
+
+  .footer-input {
+    margin-left: auto;
+  }
+
+  .modal {
+    width: 392px;
   }
 }
 
 /* Tablet */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
   .container {
     /* max-width: 734px; */
   }
@@ -135,7 +165,6 @@
   .hero-name {
     max-width: 496px;
     font-size: 56px;
-    font-weight: 1.07;
     margin-bottom: 48px;
   }
 
@@ -149,7 +178,8 @@
     background-position: center;
     background-size: cover;
     background-color: #2e2f42;
-    padding: 112px 54px;
+    padding-top: 112px;
+    padding-bottom: 112px;
     max-width: 1157px;
     height: 436px;
     margin: 0 auto;
@@ -211,6 +241,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: 64px 24px;
+  }
+
+  .customers-list {
+    display: flex;
   }
 
   .team-list-item {
@@ -409,7 +443,6 @@
     font-weight: 700;
     width: 496px;
     font-size: 56px;
-    font-weight: 1.07;
     margin-bottom: 48px;
   }
 
@@ -519,6 +552,11 @@
     display: flex;
   }
 
+  .team {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+
   .team-list {
     display: flex;
     flex-wrap: wrap;
@@ -556,17 +594,14 @@
   .footer-container {
     display: flex;
     align-items: baseline;
-    width: 1158px;
-    margin-left: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
   }
 
-  .footer {
+  .footer-text-soc {
+    margin-right: 80px;
   }
 
   .footer-logo-text {
-    margin-left: 120px;
+    margin-right: 120px;
   }
 
   .footer-link {
@@ -596,7 +631,6 @@
   }
 
   .footer-input {
-    margin-right: auto;
   }
   .modal {
     padding: 72px 24px 24px 24px;
